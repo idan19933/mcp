@@ -1,9 +1,9 @@
 [build]
 builder = "NIXPACKS"
-ECHO is off.
+
 [deploy]
-startCommand = "npm run build && npm start"
-healthcheckPath = "/health"
+startCommand = "npm start"
+healthcheckPath = "/"
 healthcheckTimeout = 100
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
