@@ -18,3 +18,4 @@ See .env.example for required variables.
 ## Health Check
 GET /health - Returns server status
 "# mcp" 
+"# Update" 
